@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1004</width>
-    <height>775</height>
+    <width>654</width>
+    <height>624</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>20</y>
       <width>321</width>
       <height>31</height>
@@ -32,25 +32,25 @@
      <rect>
       <x>20</x>
       <y>80</y>
-      <width>961</width>
-      <height>371</height>
+      <width>611</width>
+      <height>231</height>
      </rect>
     </property>
     <property name="html">
      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SF Pro Display'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Question goes here...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SF Pro Display';&quot;&gt;Question goes here...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>460</y>
-      <width>961</width>
-      <height>221</height>
+      <y>330</y>
+      <width>611</width>
+      <height>211</height>
      </rect>
     </property>
     <property name="widgetResizable">
@@ -61,8 +61,8 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>957</width>
-       <height>217</height>
+       <width>607</width>
+       <height>207</height>
       </rect>
      </property>
      <widget class="QRadioButton" name="radioButton">
@@ -136,7 +136,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>690</y>
+      <y>550</y>
       <width>231</width>
       <height>31</height>
      </rect>
@@ -148,7 +148,7 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>300</x>
       <y>30</y>
       <width>211</width>
       <height>31</height>
@@ -161,11 +161,11 @@ p, li { white-space: pre-wrap; }
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_prev">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>720</y>
+      <x>340</x>
+      <y>560</y>
       <width>87</width>
       <height>33</height>
      </rect>
@@ -174,11 +174,11 @@ p, li { white-space: pre-wrap; }
      <string>Prev.</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pushButton_next">
     <property name="geometry">
      <rect>
-      <x>890</x>
-      <y>720</y>
+      <x>540</x>
+      <y>560</y>
       <width>87</width>
       <height>33</height>
      </rect>
@@ -191,7 +191,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>720</y>
+      <y>580</y>
       <width>251</width>
       <height>31</height>
      </rect>
@@ -200,10 +200,10 @@ p, li { white-space: pre-wrap; }
      <string>Test Subject : Math</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="pushButton_done">
     <property name="geometry">
      <rect>
-      <x>890</x>
+      <x>540</x>
       <y>30</y>
       <width>87</width>
       <height>33</height>
@@ -213,23 +213,17 @@ p, li { white-space: pre-wrap; }
      <string>Done!</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QPushButton" name="pushButton_number">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>720</y>
-      <width>111</width>
-      <height>31</height>
+      <x>440</x>
+      <y>560</y>
+      <width>87</width>
+      <height>33</height>
      </rect>
     </property>
     <property name="text">
      <string>10 / 40</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
