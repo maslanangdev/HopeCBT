@@ -1,6 +1,6 @@
 ![workflow image](HopperZero.png)
 
-A Hopefully Lightweight and unFrustating CBT System
+A Hopefully Lightweight and unFrustating Computer Based Test System
 
 Development Coming Soon!
 
