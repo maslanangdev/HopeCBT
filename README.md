@@ -1,11 +1,8 @@
-# HopeCBT
-A Hopefully Lightweight and unFrustating CBT System Developed in Python
+![workflow image](HopperZero.png)
 
-# Editing the UI Files
+A Hopefully Lightweight and unFrustating CBT System
 
-On Windows You can install pyqt5-tools from Pypi to edit the ui files and run `pyqt5-tools designer` from `cmd` or `run` to open Qt Designer
+Development Coming Soon!
 
-On Linux you can try install Qt Designer from your distro package manager
+(c) 2024 maslanangdev
 
-# Workflow in the nutshell
-![workflow image](docs_img/workflow.png)
